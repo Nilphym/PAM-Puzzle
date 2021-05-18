@@ -12,7 +12,7 @@ snapfit.add(document.getElementById(currentImage), {
   mixed: true,
   aborder: true,
   polygon: true,
-  space: 50,
+  space: 20,
   level: 1,
   aimage: true,
 })
@@ -39,7 +39,7 @@ document.getElementById('picture').addEventListener('change', evt => {
     mixed: true,
     aborder: true,
     polygon: true,
-    space: 50,
+    space: 20,
     level: 1,
     aimage: true,
   })
