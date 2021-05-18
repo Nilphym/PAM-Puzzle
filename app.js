@@ -14,7 +14,11 @@ const loadProject = () => {
     aborder: true,
     polygon: true,
     space: 20,
-    level: 1,
+    level: parseInt(
+      document.getElementById('level').options[
+        document.getElementById('level').selectedIndex
+      ].value
+    ),
     aimage: true,
   })
 
@@ -41,7 +45,11 @@ const loadProject = () => {
       aborder: true,
       polygon: true,
       space: 20,
-      level: 1,
+      level: parseInt(
+        document.getElementById('level').options[
+          document.getElementById('level').selectedIndex
+        ].value
+      ),
       aimage: true,
     })
   })
