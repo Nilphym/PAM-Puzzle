@@ -42,4 +42,4 @@ setTimeout(() => {
   if (document.getElementById('image').tagName === "IMG") {
     location.reload();
   }
-}, 3000);
+}, 1000);
