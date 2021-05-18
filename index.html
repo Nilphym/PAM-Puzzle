@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./snapfit.js" defer></script>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="wrapper">
+    <img id="image" width="100%" src="./images/1.jpg" alt="puzzle" />
+    <div>
+      <label for="level">Trudność:</label>
+      <select class="selector" id="level" name="level">
+        <option value="1">Łatwy</option>
+        <option value="3">Średni</option>
+        <option value="6">Trudny</option>
+      </select>
+    </div>
+    <div>
+      <label for="picture">Obrazek:</label>
+      <select class="selector" id="picture" name="picture">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </div>
+    <div class="buttons">
+      <button id="reset">Reset</button>
+      <button id="solve">Rozwiąż</button>
+    </div>
+    <div class="tutorial">
+      <span>Przesuwanie: Przytrzymaj</span>
+      <span>Obracanie: Kliknij dwukrotnie</span>
+    </div>
+  </body>
+</html>
